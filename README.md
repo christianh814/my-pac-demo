@@ -1,2 +1,2 @@
 # my-pac-demo
-My PaC demo
+My pAc demo
