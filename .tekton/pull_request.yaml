@@ -53,8 +53,8 @@ spec:
               image: registry.access.redhat.com/ubi8/ubi-micro:8.4
               workingDir: $(workspaces.source.path)
               script: |
-                test -e LICENSE || exit 1
                 exit 0
+                test -e LICENSE || exit 1
   workspaces:
   - name: source
     volumeClaimTemplate:
